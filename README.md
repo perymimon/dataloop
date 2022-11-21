@@ -3,13 +3,18 @@
     result store at  `resutl.json` of `process.cwd`
 
 ## install 
-git clone  
+git clone  https://github.com/perymimon/dataloop.git
+git link
 
 ## use
 
-run the `index.js` in the `src` folder and give node two paramter:
-- source-url : the url to start crawling 
-- max-deep : how far the crawaler will go deep
+```
+crawl [srouce-url] [max-deep]
+```
+
+If it not works for some reason run the `index.js` in the `src` folder and give it two parameter:
+- source-url : The url to start crawling. 
+- max-deep : How far the crawler will go deep.
 
 ```
 node ./src [srouce-url] [max-deep]
