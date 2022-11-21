@@ -1,0 +1,12 @@
+{
+  "name": "@perymimon/basic-crawl",
+  "type": "module",
+  "bin": {
+    "crawl": "./src/index.js"
+  },
+  "dependencies": {
+    "configstore": "^6.0.0",
+    "ora": "^6.1.2",
+    "puppeteer": "^19.2.2"
+  }
+}
